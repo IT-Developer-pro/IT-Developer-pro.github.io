@@ -30,7 +30,7 @@ section {
 
 .site-name {
     width: 100vw;
-    height: 10vw;
+    height: 12vw;
     text-align: center;
     color: black;
     font-size: 1.8vw;
@@ -50,7 +50,7 @@ section {
 
 .blok-menu  {
     width: 99vw;
-    height: 5vw;
+    height: 6vw;
     z-index: 10;
     background: rgba(166, 166, 166, 0.9);
     position: -webkit-sticky;
@@ -65,7 +65,8 @@ section {
 /* ######################################*/
 
 .blok-menu-A {
-    display: flex;   
+    display: flex; 
+    justify-content: space-evenly;  
 }
 
 /* ######################################*/
@@ -73,11 +74,13 @@ section {
 /* ######################################*/
 
 .blok-menu-a {
+    width: 70vw;
     display: flex; 
     align-items: center;
+    justify-content: space-evenly;
     height: 3vw;
     padding: 0.5vw 0.5vw;
-    margin: 0.5vw 0;    
+    margin: 1.0vw 0;    
 }
 
 /* ######################################*/
@@ -86,10 +89,10 @@ section {
     cursor: pointer;
     text-decoration: none;
     color: rgb(74, 0, 0);
-    font-size: 2.2vw;
+    font-size: 2.0vw;
     font-weight: 900;
-    padding: 0.5vw 2.5vw;
-    letter-spacing: .3vw;
+    padding: 0.5vw 1vw;
+    letter-spacing: 0.25vw;
     border-radius: 0.25em;
     transition: ease-in .25s all;
 }
@@ -114,7 +117,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0.5vw;
-    margin: 0.7vw;
+    margin: 1.2vw 0;
     color: #ffffff;
     background: rgba(0, 30, 18, 0.5);
     border-radius: 0.5em;
