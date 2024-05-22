@@ -1,0 +1,1176 @@
+* {
+    padding: 0;
+    margin: 0;
+}   
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background: url(image/telegram-bot/bot2.1.jpg);
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.blok-1 {
+    max-height: 60vw;
+    max-width: 100vw;   
+    background: url(image/telegram-bot/bot1.jpg) center center no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    height: 60vw;
+    width: 100%;
+    border-radius: 0.5em; 
+}
+
+/* ######################################*/
+/* ######################################*/
+
+.blok-1-name-centers {
+    margin: 0.5vw;
+}
+
+.blok-1-name-center {
+    width: 100vw;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+/* ######################################*/
+
+.blok-1-name-center-1 {
+    width: 44vw;
+    text-align: end;
+    color: rgb(50, 3, 170);
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.2vw;
+    padding-right: 0.5vw;
+}
+
+.blok-1-name-center-2 {
+    width: 56vw;
+    text-align: start;
+    color: rgb(3, 170, 39);
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.2vw;
+    padding-left: 0.5vw;
+}
+
+/* ######################################*/
+
+.blok-1-name-center h3 {
+    color: hsla(0, 100%, 50%, 0.9);
+    font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.3vw;
+    letter-spacing: 0.2vw;
+    top: 50%;
+    width: 100%;
+    animation: move linear 6000ms infinite;  
+}
+
+@keyframes move {
+0% {
+    text-shadow:
+        0.4vw -0.4vw 0 hsla(0, 100%, 50%, 1), 
+        0.3vw -0.3vw 0 hsla(0, 100%, 50%, 1), 
+        0.2vw -0.2vw 0 hsla(0, 100%, 50%, 1), 
+        0.1vw -0.1vw 0 hsla(0, 100%, 50%, 1),
+        -0.4vw 0.4vw 0 hsla(180, 100%, 50%, 1), 
+        -0.3vw 0.3vw 0 hsla(180, 100%, 50%, 1), 
+        -0.2vw 0.2vw 0 hsla(180, 100%, 50%, 1), 
+        -0.1vw 0.1vw 0 hsla(180, 100%, 50%, 1)
+        ;
+    }
+
+25% {    
+    text-shadow:      
+        -0.4vw -0.4vw 0 hsla(180, 100%, 50%, 1), 
+        -0.3vw -0.3vw 0 hsla(180, 100%, 50%, 1), 
+        -0.2vw -0.2vw 0 hsla(180, 100%, 50%, 1), 
+        -0.1vw -0.1vw 0 hsla(180, 100%, 50%, 1),
+        0.4vw 0.4vw 0 hsla(0, 100%, 50%, 1), 
+        0.3vw 0.3vw 0 hsla(0, 100%, 50%, 1), 
+        0.2vw 0.2vw 0 hsla(0, 100%, 50%, 1), 
+        0.1vw 0.1vw 0 hsla(0, 100%, 50%, 1)      
+        ;
+    }
+
+50% {
+    text-shadow:
+        -0.4vw 0.4vw 0 hsla(0, 100%, 50%, 1), 
+        -0.3vw 0.3vw 0 hsla(0, 100%, 50%, 1), 
+        -0.2vw 0.2vw 0 hsla(0, 100%, 50%, 1), 
+        -0.1vw 0.1vw 0 hsla(0, 100%, 50%, 1),
+        0.4vw -0.4vw 0 hsla(180, 100%, 50%, 1), 
+        0.3vw -0.3vw 0 hsla(180, 100%, 50%, 1), 
+        0.2vw -0.2vw 0 hsla(180, 100%, 50%, 1), 
+        0.1vw -0.1vw 0 hsla(180, 100%, 50%, 1)
+        ;
+    }
+
+75% {
+    text-shadow:
+        0.4vw 0.4vw 0 hsla(180, 100%, 50%, 1), 
+        0.3vw 0.3vw 0 hsla(180, 100%, 50%, 1), 
+        0.2vw 0.2vw 0 hsla(180, 100%, 50%, 1), 
+        0.1vw 0.1vw 0 hsla(180, 100%, 50%, 1),
+        -0.4vw -0.4vw 0 hsla(0, 100%, 50%, 1), 
+        -0.3vw -0.3vw 0 hsla(0, 100%, 50%, 1), 
+        -0.2vw -0.2vw 0 hsla(0, 100%, 50%, 1), 
+        -0.1vw -0.1vw 0 hsla(0, 100%, 50%, 1)      
+        ;
+    }
+
+100% {
+    text-shadow:
+        0.4vw -0.4vw 0 hsla(0, 100%, 50%, 1), 
+        0.3vw -0.3vw 0 hsla(0, 100%, 50%, 1), 
+        0.2vw -0.2vw 0 hsla(0, 100%, 50%, 1), 
+        0.1vw -0.1vw 0 hsla(0, 100%, 50%, 1),
+        -0.4vw 0.4vw 0 hsla(180, 100%, 50%, 1), 
+        -0.3vw 0.3vw 0 hsla(180, 100%, 50%, 1), 
+        -0.2vw 0.2vw 0 hsla(180, 100%, 50%, 1), 
+        -0.1vw 0.1vw 0 hsla(180, 100%, 50%, 1)
+        ;
+    }  
+}
+
+
+
+.blok-1-name-center h4 {
+    color: hsla(131, 100%, 50%, 0.9);
+    font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.3vw;
+    letter-spacing: 0.2vw;
+    top: 50%;
+    width: 100%;
+    animation: move linear 6000ms infinite;  
+}
+
+@keyframes move {
+0% {
+    text-shadow:
+        0.4vw -0.4vw 0 hsla(0, 100%, 50%, 1), 
+        0.3vw -0.3vw 0 hsla(0, 100%, 50%, 1), 
+        0.2vw -0.2vw 0 hsla(0, 100%, 50%, 1), 
+        0.1vw -0.1vw 0 hsla(0, 100%, 50%, 1),
+        -0.4vw 0.4vw 0 hsla(180, 100%, 50%, 1), 
+        -0.3vw 0.3vw 0 hsla(180, 100%, 50%, 1), 
+        -0.2vw 0.2vw 0 hsla(180, 100%, 50%, 1), 
+        -0.1vw 0.1vw 0 hsla(180, 100%, 50%, 1)
+        ;
+    }
+
+25% {    
+    text-shadow:      
+        -0.4vw -0.4vw 0 hsla(180, 100%, 50%, 1), 
+        -0.3vw -0.3vw 0 hsla(180, 100%, 50%, 1), 
+        -0.2vw -0.2vw 0 hsla(180, 100%, 50%, 1), 
+        -0.1vw -0.1vw 0 hsla(180, 100%, 50%, 1),
+        0.4vw 0.4vw 0 hsla(0, 100%, 50%, 1), 
+        0.3vw 0.3vw 0 hsla(0, 100%, 50%, 1), 
+        0.2vw 0.2vw 0 hsla(0, 100%, 50%, 1), 
+        0.1vw 0.1vw 0 hsla(0, 100%, 50%, 1)      
+        ;
+    }
+
+50% {
+    text-shadow:
+        -0.4vw 0.4vw 0 hsla(0, 100%, 50%, 1), 
+        -0.3vw 0.3vw 0 hsla(0, 100%, 50%, 1), 
+        -0.2vw 0.2vw 0 hsla(0, 100%, 50%, 1), 
+        -0.1vw 0.1vw 0 hsla(0, 100%, 50%, 1),
+        0.4vw -0.4vw 0 hsla(180, 100%, 50%, 1), 
+        0.3vw -0.3vw 0 hsla(180, 100%, 50%, 1), 
+        0.2vw -0.2vw 0 hsla(180, 100%, 50%, 1), 
+        0.1vw -0.1vw 0 hsla(180, 100%, 50%, 1)
+        ;
+    }
+
+75% {
+    text-shadow:
+        0.4vw 0.4vw 0 hsla(180, 100%, 50%, 1), 
+        0.3vw 0.3vw 0 hsla(180, 100%, 50%, 1), 
+        0.2vw 0.2vw 0 hsla(180, 100%, 50%, 1), 
+        0.1vw 0.1vw 0 hsla(180, 100%, 50%, 1),
+        -0.4vw -0.4vw 0 hsla(0, 100%, 50%, 1), 
+        -0.3vw -0.3vw 0 hsla(0, 100%, 50%, 1), 
+        -0.2vw -0.2vw 0 hsla(0, 100%, 50%, 1), 
+        -0.1vw -0.1vw 0 hsla(0, 100%, 50%, 1)      
+        ;
+    }
+
+100% {
+    text-shadow:
+        0.4vw -0.4vw 0 hsla(0, 100%, 50%, 1), 
+        0.3vw -0.3vw 0 hsla(0, 100%, 50%, 1), 
+        0.2vw -0.2vw 0 hsla(0, 100%, 50%, 1), 
+        0.1vw -0.1vw 0 hsla(0, 100%, 50%, 1),
+        -0.4vw 0.4vw 0 hsla(180, 100%, 50%, 1), 
+        -0.3vw 0.3vw 0 hsla(180, 100%, 50%, 1), 
+        -0.2vw 0.2vw 0 hsla(180, 100%, 50%, 1), 
+        -0.1vw 0.1vw 0 hsla(180, 100%, 50%, 1)
+        ;
+    }  
+}
+
+
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+.blok-1-name-menu  {
+    max-width: 100vw;
+    max-height: 6vw;
+    width: 100%;
+    z-index: 10;
+    background: rgba(98, 161, 238, 0.8);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;   
+    background-attachment: fixed ;
+	background-position: top center;
+}
+
+.blok-1-name-menu-a {
+    display: flex;
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+.blok-1-name-menu-0 {
+    display: flex; 
+    align-items: center;
+    height: 3vw;
+    padding: 0.5vw 0.5vw;
+    margin: 0.5vw 0.5vw;    
+}
+
+/* ######################################*/
+
+.blok-1-name-menu-0 a {
+
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 2.2vw;
+    font-weight: 900;
+    padding: 0vw 2.5vw;
+    letter-spacing: .3vw;
+    transition: ease-in .25s all;
+}
+
+.blok-1-name-menu-0 a:hover {
+    background: #423a3a;
+    color: #06f3c7;
+}
+
+.blok-1-name-button {
+    height: 4vw;
+    align-items: center;
+}
+
+
+.blok-1-name-button button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0.5vw;
+    margin: 0.7vw;
+    color: #000000;
+    background: rgba(78, 83, 81, 0.5);
+    border-radius: 0.5em;
+    border: none;
+    transition: ease-in .15s all;
+}
+
+.blok-1-name-menu button:hover {
+    color: whitesmoke;
+    background: black;
+    border: 0.3vw dashed rgb(90, 90, 93);
+    border-radius: 0.5em;  
+}
+
+
+.blok-1-name-button button p {
+    font-size: 1.6vw;
+    font-weight: 700;
+    letter-spacing: 0.3vw;
+    padding: 0 0.3vw;
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+.blok-1-name-text {
+    float: left;
+    width: 90vw;
+}
+
+.blok-1-name-text h2 {
+    color: black;
+    font-size: 4.5vw;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.5vw;
+    padding: 0.6vw;
+    padding-top: 2vw;
+    padding-left: 1.5vw;
+    text-shadow: -0.1vw 0, 0 0.1vw, 0.1vw 0, 0 -0.1vw,
+                 -0.1vw -0.1vw, 0.1vw 0.1vw,-0.1vw 0.1vw,
+                  0.1vw -0.1vw;
+}
+
+.blok-1-name-text p {
+    color: black;
+    font-size: 4.3vw;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.4vw;
+    padding: 0.6vw;
+    padding-left: 1.5vw;
+}
+
+.blok-1-name-text h3 {
+    color: black;
+    font-size: 4.1vw;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.5vw;
+    padding: 0.6vw;
+    padding-left: 1.5vw;
+    text-shadow: -0.1vw 0, 0 0.1vw, 0.1vw 0, 0 -0.1vw,
+                 -0.1vw -0.1vw, 0.1vw 0.1vw, -0.1vw 0.1vw,
+                  0.1vw -0.1vw;
+}
+
+.blok-1-name-text h4 {
+    color: black;
+    font-size: 4.2vw;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1.9vw;
+    padding: 0.6vw;
+    padding-left: 1.5vw;
+    text-shadow: -0.1vw 0, 0 0.1vw, 0.1vw 0, 0 -0.1vw,
+                 -0.1vw -0.1vw, 0.1vw 0.1vw, -0.1vw 0.1vw,
+                  0.1vw -0.1vw;
+}
+
+.blok-1-name-text h5 {
+    color: black;
+    font-size: 3.8vw;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 1.0vw;
+    padding: 0.6vw;
+    padding-left: 1.5vw;
+    text-shadow: -0.1vw 0, 0 0.1vw, 0.1vw 0, 0 -0.1vw,
+                 -0.1vw -0.1vw, 0.1vw 0.1vw, -0.1vw 0.1vw,
+                  0.1vw -0.1vw;
+}
+
+.blok-1-name-text h6 {
+    color: black;
+    font-size: 3.7vw;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.8vw;
+    padding: 0.6vw;
+    padding-bottom: 3vw;
+    padding-left: 1.5vw;
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+
+.blok-1-name-bots {
+    width: 13vw;
+    display: inline-block;
+    font: 900 4.0vw/.75 'Source Sans Pro', Arial, sans-serif; 
+    background: transparent; 
+    color: #0d5718; 
+    padding-top: 9vw; 
+    padding-left: 14vw;
+    padding-right: 10vw;
+    letter-spacing: -.6vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+
+.blok-1-name-bots h5 { 
+    font-size: 5.5vw;
+    padding-top: 0vw; 
+    text-shadow:   
+        0.1vw  0.1vw 0.1vw #a3971b,
+        0.2vw  0.2vw 0.1vw #66644d,
+        0.3vw  0.3vw 0.1vw #66644d,
+        0.4vw  0.4vw 0.1vw #66644d,
+        0.5vw  0.5vw 0.1vw #66644d,
+        0.6vw  0.6vw 0.1vw #66644d,
+        0.7vw  0.7vw 0.1vw #66644d,
+        0.8vw  0.8vw 0.1vw #66644d,
+        0.9vw  0.9vw 0.1vw #66644d,
+        1.0vw 1.0vw 0.1vw #7d0962,
+        1.1vw 1.1vw 0.1vw #66644d,
+        1.2vw 1.2vw 0.1vw #66644d,
+        1.3vw 1.3vw 0.1vw #66644d,
+        1.4vw 1.4vw 0.1vw #66644d,
+        1.5vw 1.5vw 0.1vw #66644d,
+        1.6vw 1.6vw 0.1vw #07c25e,
+        1.7vw 1.7vw 0.1vw #66644d,
+        1.8vw 1.8vw 0.1vw #66644d,
+        1.9vw 1.9vw 0.1vw #66644d,
+        2.0vw 2.0vw 0.1vw #66644d,
+        2.1vw 2.1vw 0.1vw #66644d,
+        2.2vw 2.2vw 0.1vw #0c0c0c,
+        2.3vw 2.3vw 0.1vw #66644d,
+        2.4vw 2.4vw 0.1vw #66644d,
+        2.5vw 2.5vw 0.1vw #66644d,
+        2.6vw 2.6vw 0.1vw #66644d,
+        2.7vw 2.7vw 0.1vw #66644d,
+        2.8vw 2.8vw 0.1vw #66644d,
+        2.9vw 2.9vw 0.1vw #ca0707,
+        3.0vw 3.0vw 0.1vw #66644d;
+  
+    -webkit-transform: skewY(-25deg);
+    -moz-transform: skewY(-25deg);
+    transform: skewY(-25deg);
+
+    -webkit-backface-visibility: hidden;
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.blok-1-name-bots-1 {
+    width: 20vw;
+    height: 8vw;
+    display: inline-block;
+    float: left;
+    font: 900 5.5vw/.75 'Source Sans Pro', Arial, sans-serif; 
+    background: transparent; 
+    text-align: center; 
+    padding-top: 7vw; 
+    padding-right: 6vw;
+    margin-left: -2vw;
+    letter-spacing: -.6vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+:root {
+    --3DshadowA3:
+    0 0 1px 
+    rgba(0, 0, 0, .7),-1px 0 1px 
+    rgba(0, 0, 0, .4),1px -1px 1px, 0 -1px 1px, -1px -1px 1px, 1px -1px 1px
+    rgba(0, 0, 0, .5), -2px -1px 1px 
+    rgba(0, 0, 0, .5),0 -2px 1px, -1px -2px 1px,-2px -2px 1px, 0 -2px 1px 
+    rgba(0, 0, 0, .5), -3px -2px 1px 
+    rgba(0, 0, 0, .5), -1px -3px 1px,-2px -3px 1px, -3px -3px 1px, -1px -3px 1px 
+    rgba(0, 0, 0, .5), -4px -3px 1px 
+    rgba(0, 0, 0, .5), -2px -4px 1px,-3px -4px 1px, -4px -4px 1px, -2px -4px 1px 
+    rgba(0, 0, 0, .5), -5px -4px 1px 
+    rgba(0, 0, 0, .5), -3px -5px 1px,-4px -5px 1px, -5px -5px 1px, -3px -5px 1px 
+    rgba(0, 0, 0, .5), -5px -5px 1px 
+    rgba(0, 0, 0, .7);
+}
+   
+.blok-1-name-menu-signatere-1 {
+    background: transparent;
+    padding-left: 8vw;
+}
+  
+.blok-1-name-menu-signatere-1 p {
+    position: relative;
+    font-style: italic;
+    font-size: 8vw;
+    text-align: center;
+    transform-origin: bottom left;
+    transform: skewY(-15deg)translate3d(0, 0, 0);
+    margin-top: 0vw;
+    color: rgb(198, 189, 8);
+    text-shadow: var(--3DshadowA3);
+    filter: brightness(.9)contrast(2)
+}
+  
+.blok-1-name-bots-1 p:before,
+.blok-1-name-menu-signatere-1 p:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    content: attr(data-text)
+}
+  
+.blok-1-name-menu-signatere-1 p:before {
+    color: transparent;
+    text-shadow: 
+    0 0 0.5vw #0c700b, 
+    0 0 1.0vw rgba(0, 0, 0, .6), 
+    0 0 2.0vw rgba(0, 0, 0, .6), 
+    0 0 4.0vw rgba(0, 0, 0, .4);
+    opacity: .5;
+    transform-origin: bottom left;
+    transform: skewX(60deg);
+    z-index: -1
+}
+  
+.blok-1-name-menu-signatere-1 p:after {
+    color: #086a3c;
+    text-shadow: 0 0 .07vw, 0 0 0.11vw, 0 0 0.11vw
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.blok-1-name-bots-2 {
+    width: 20vw;
+    height: 8vw;
+    display: inline-block;
+    font: 900 3.5vw/.75 'Source Sans Pro', Arial, sans-serif; 
+    background: transparent; 
+    text-align: center; 
+    padding-top: 0vw; 
+    padding-right: 0vw;
+    margin-left: 0vw;
+    letter-spacing: -.6vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+:root {
+    --3DshadowA3:
+    0 0 1px 
+    rgba(0, 0, 0, .7),-1px 0 1px 
+    rgba(0, 0, 0, .4),1px -1px 1px, 0 -1px 1px, -1px -1px 1px, 1px -1px 1px
+    rgba(0, 0, 0, .5), -2px -1px 1px 
+    rgba(0, 0, 0, .5),0 -2px 1px, -1px -2px 1px,-2px -2px 1px, 0 -2px 1px 
+    rgba(0, 0, 0, .5), -3px -2px 1px 
+    rgba(0, 0, 0, .5), -1px -3px 1px,-2px -3px 1px, -3px -3px 1px, -1px -3px 1px 
+    rgba(0, 0, 0, .5), -4px -3px 1px 
+    rgba(0, 0, 0, .5), -2px -4px 1px,-3px -4px 1px, -4px -4px 1px, -2px -4px 1px 
+    rgba(0, 0, 0, .5), -5px -4px 1px 
+    rgba(0, 0, 0, .5), -3px -5px 1px,-4px -5px 1px, -5px -5px 1px, -3px -5px 1px 
+    rgba(0, 0, 0, .5), -5px -5px 1px 
+    rgba(0, 0, 0, .7);
+}
+   
+.blok-1-name-menu-signatere-2 {
+    background: transparent;
+    padding-left: 8vw;
+}
+  
+.blok-1-name-menu-signatere-2 p {
+    position: relative;
+    font-style: italic;
+    font-size: 9vw;
+    text-align: center;
+    transform-origin: bottom left;
+    transform: skewY(-15deg)translate3d(0, 0, 0);
+    margin-top: 0vw;
+    color: rgb(203, 167, 19);
+    text-shadow: var(--3DshadowA3);
+    filter: brightness(.9)contrast(2)
+}
+  
+.blok-1-name-bots-2 p:before,
+.blok-1-name-menu-signatere-2 p:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    content: attr(data-text)
+}
+  
+.blok-1-name-menu-signatere-2 p:before {
+    color: transparent;
+    text-shadow: 
+    0 0 0.5vw #750559, 
+    0 0 1.0vw rgba(0, 0, 0, .6), 
+    0 0 2.0vw rgba(0, 0, 0, .6), 
+    0 0 4.0vw rgba(0, 0, 0, .4);
+    opacity: .6;
+    transform-origin: bottom left;
+    transform: skewX(60deg);
+    z-index: -1
+}
+  
+.blok-1-name-menu-signatere-2 p:after {
+    color: #720665;
+    text-shadow: 0 0 .07vw, 0 0 0.11vw, 0 0 0.11vw
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+.blok-reference-bots {
+    max-height: 60vw;
+    max-width: 100vw;   
+    background: url(image/telegram-bot/bot5.jpg) center center no-repeat;
+    background-size: cover;
+    height: 60vw;
+    width: 100%;
+    border-radius: 0.5em; 
+}
+
+.blok-reference-bots {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blok-reference-bots div {
+    text-align: center;
+    width: 32vw;
+    height: 12.5vw;
+    margin: 2vw;
+    border-radius: 2em;
+}
+
+.reference-salon-krasota {  
+    background: rgba(255, 25, 0, 0.5);
+}
+
+.reference-milenin-toys {
+    background: rgba(255, 2, 149, 0.2);
+}
+
+.blok-reference-bots a {
+    text-decoration: none;
+}
+
+.blok-reference-bots h4 {
+    width: 30vw;
+    cursor: pointer;
+    text-align: center; 
+    color: #000000;
+    font-size: 2.4vw;
+    font-weight: normal;
+    padding: 2vw 0;
+    border-radius: 2em;
+    transition: ease-in .25s all;
+}
+
+.blok-reference-bots h1:hover {
+    background-color: rgba(65, 7, 40, 0.7);
+    color: wheat;
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.blok-photo {
+    max-width: 100vw; 
+    max-height: 60vw;     
+    background: rgba(149, 221, 247, 0.5) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vw; 
+    padding: 1vw 0;  
+    border-radius: 0.5em; 
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.blok-photo .photo-name h3 {
+    text-align: center;
+    color: rgb(255, 38, 0);
+    font-size: 4.0vw;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.5vw;
+}
+
+.blok-photo .photo-name p {
+    text-align: center;
+    color: rgb(38, 0, 255);
+    font-size: 3.0vw;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 0.5vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.blok-photo .img-ABC {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 0.5em;
+}
+/* ######################################*/
+.blok-photo .img-A {
+    display: flex;
+    justify-content: space-between;
+    width: 26vw;
+    height: 21vw;
+    background: rgba(132, 211, 206, 0.75);
+    padding: 0.5vw;
+    margin: 1vw;
+    border-radius: 0.5em;
+}
+/* ######################################*/
+.blok-photo img {
+    width: 12vw;
+    border-radius: 0.5em;
+}
+/* ######################################*/
+
+.blok-photo .img-b {
+    text-align: center;
+    width: 13vw;
+    height: 15vw;
+    font-size: 1.7vw;
+    padding: 2vw 0;
+}
+/* ######################################*/
+.blok-photo .img-b a {
+    cursor: pointer;
+    width: 9vw; 
+    height: 3vw;
+    text-align: center; 
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.8vw;
+    font-weight: 800;
+    border-radius: 0.25em;
+    border: 0.2vw dashed rgb(255, 89, 0);
+    transition: ease-in .25s all;
+}
+
+.blok-photo .img-b a:hover {
+    background-color: #33022d;
+    color: wheat;
+    font-size: 1.6vw;
+    padding: 0.5vw;
+}
+/* ######################################*/
+.blok-photo .img-b h5 {
+    font-size: 2.5vw;
+    margin-top: 1.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.blok-photo .img-b h6 {
+    font-size: 1.5vw;
+    font-weight: normal;
+}
+
+.blok-photo .img-b p {
+    padding-top: 1vw;
+    font-size: 1.4vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.blok-video {
+    max-width: 100vw; 
+    max-height: 60vw;     
+    background: rgba(132, 211, 206, 0.5) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vw; 
+    padding: 1vw 0;  
+    border-radius: 0.5em; 
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.blok-video .video-name p {
+    text-align: center;
+    color: #1e01fa;
+    font-size: 3.0vw;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 0.5vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.blok-video .video-ABC {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 97vw;
+    height: 25vw;
+    margin: 1vw 0;
+    border-radius: 0.5em;
+}
+
+/* ######################################*/
+
+.blok-video .video-miniblok-A {
+    width: 26vw;
+    height: 23vw;
+    padding: 0.5vw;
+    background: rgb(149, 221, 247, 0.75);
+    border-radius: 0.5em;
+}
+
+/* ######################################*/
+.blok-video .video-A {
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+    height: 13.5vw;
+    border-radius: 0.5em;
+}
+/* ######################################*/
+.blok-video .video-A video {
+    width: 16vw;
+    height: 13vw;
+    border-radius: 0.5em;
+}
+/* ######################################*/
+/* ######################################*/
+
+.blok-video .video-A .video-reference {
+    text-align: center;
+    align-items: center;
+    width: 11vw;
+    height: 6vw;
+    padding: 0.5vw;
+    margin-top: 2vw;
+}
+
+
+.blok-video .video-A .video-reference a {
+    text-decoration: none;
+}
+
+.blok-video .video-A .video-reference p {
+    width: 9vw;
+    height: 6vw;
+    cursor: pointer;
+    color: #000000;
+    font-size: 2.0vw;
+    font-weight: 800;
+    letter-spacing: 0.2vw;
+    padding: 0.5vw;
+    border-radius: 0.25em;
+    background: rgba(0, 0, 0, .4);
+    transition: ease-in .25s all;
+}
+
+.blok-video .video-A .video-reference p:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.blok-video .video-text h4 {
+    text-align: center;
+    font-size: 1.9vw;
+    margin-top: 1.1vw;
+    margin-bottom: 0.5vw;
+}
+
+.blok-video .video-text h5 {
+    text-align: center;
+    font-size: 1.5vw;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.blok-video .video-text h6 {
+    text-align: center;
+    padding-top: 0.5vw;
+    font-size: 1.4vw;
+    font-weight: 900;
+    letter-spacing: 0.1vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.blok-video .video-ABCD {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 97vw;
+    height: 25vw;
+    margin: 1vw 0;
+    border-radius: 0.5em;
+}
+
+/* ######################################*/
+
+.blok-video .video-B {
+    display: flex;
+    width: 22vw;
+    height: 23vw;
+    padding: 0.5vw;
+    background: rgb(149, 221, 247, 0.75);
+    border-radius: 0.5em;
+}
+
+/* ######################################*/
+.blok-video .video-B video {
+    width: 10vw;
+    height: 22vw;
+    border-radius: 0.5em;
+}
+
+/* ######################################*/
+
+.blok-video .video-B div {
+    text-align: center;
+    align-items: center;
+    width: 11vw;
+    margin-top: 2vw;
+}
+
+/* ######################################*/
+
+.blok-video .video-B .W a {
+    text-decoration: none;
+}
+
+.blok-video .video-B .W p {
+    cursor: pointer;
+    width: 9vw; 
+    height: 6vw;
+    background: rgba(0, 0, 0, .4);
+    color: #000000;
+    font-size: 2.0vw;
+    font-weight: 800;
+    letter-spacing: 0.2vw;
+    padding: 0.5vw 0;
+    margin: 1vw;
+    border-radius: 0.25em;
+    transition: ease-in .25s all;
+}
+
+.blok-video .video-B .W p:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+/* ######################################*/
+
+.blok-video .video-B h4 {
+    text-align: center;
+    font-size: 1.8vw;
+    font-weight: normal;
+    margin-top: 1.1vw;
+    margin-bottom: 1vw;
+}
+
+.blok-video .video-B h5 {
+    text-align: center;
+    font-size: 1.5vw;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.blok-video .video-B h6 {
+    text-align: center;
+    padding-top: 0.5vw;
+    font-size: 1.4vw;
+    font-weight: 900;
+    letter-spacing: 0.1vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.my-contact {
+    width: 100vw; 
+    height: 60vw;     
+    background: rgba(109, 115, 112, 0.8) center center no-repeat;
+    background-size: cover;
+    padding: 0.3vw 0;  
+    border-radius: 0.5em; 
+}
+
+/* ######################################*/
+
+.my-contact .contact-name h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 4.8vw;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 0.5vw;
+}
+
+/* ######################################*/
+
+.my-contact .contact-text {
+    width: 94vw;
+    height: 47vw;
+    padding: 3vw    ;
+}
+/* ######################################*/
+
+.my-contact .contact-text a {
+    text-decoration: none;
+    color: #0707ab;
+}
+
+.my-contact .contact-text h6 {
+    height: 6vw;
+    cursor: pointer;
+    text-align: center; 
+    align-items: center; 
+    color: #000000;
+    font-size: 4.0vw;
+    font-weight: 900;
+    margin: 2.5vw 0;
+    padding: 0.5vw;
+    border-radius: 0.25em;
+    border: 0.3vw dashed rgb(1, 178, 40);
+    transition: ease-in .25s all;
+}
+
+.my-contact .contact-text h6:hover {
+    background-color: #565256;
+    color: wheat;
+}
+
+/* ######################################*/
+/* ######################################*/
+
+.my-contact .contact-text .Contact-my {
+    width: 92vw;
+    height: 6vw;
+    margin: 3vw 0;
+}
+
+.messages-my {
+    display: flex;
+    justify-content: space-evenly;
+    width: 92vw;
+    height: 6vw;
+    margin: 3vw 0;
+}
+
+.my-contact .contact-text .WhatsApp-my {
+    width: 40vw;
+}
+
+.my-contact .contact-text .Telegram-my {
+    width: 40vw;
+}
+
+.post-my {
+    width: 92vw;
+    height: 6vw;
+    margin: 3vw 0;
+    margin-top: 6vw;
+}
+
+.my-contact .contact-text .House-my {
+    width: 92vw;
+    height: 6vw;
+    margin: 3vw 0;
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

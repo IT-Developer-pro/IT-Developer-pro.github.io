@@ -1,0 +1,2726 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(236, 224, 202);
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+.menu-0 {
+    max-width: 100vw; 
+    z-index: 10;
+    background: rgba(232, 227, 227, 0.6);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;   
+    background-attachment: fixed ;
+	background-position: top center;
+}
+
+/* ######################################*/
+
+.menu-0 .menu-text {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5vw 0.5vw;
+    margin: 1.5vw 1vw;    
+    background: rgba(232, 227, 227, 0.4);
+}
+
+/* ######################################*/
+
+.menu-0 .menu-text a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 1.6vw;
+    font-weight: 900;
+    padding: .15vw .8vw;
+    letter-spacing: .15vw;
+    transition: ease-in .25s all;
+}
+
+.menu-0 .menu-text a:hover {
+    background: #423a3a;
+    color: #06f3c7;
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.menu-text-general {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5vw 2vw; 
+    margin: .5vw 1vw;  
+    background: rgb(255, 255, 255, 0.2);
+}
+
+/* ######################################*/
+
+.menu-text-left {
+    text-align: center;
+    color: #000;
+    font-size: 2.5vw;
+    font-weight: 500;
+    letter-spacing: .2vw;
+    font-style: italic;
+}
+
+/* ######################################*/
+
+.menu-button button {
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    writing-mode:horizontal-tb;
+    text-orientation: upright;
+    color: rgb(0, 0, 0);
+    background: rgba(54, 65, 59, 0.4);
+    border-radius: 0.5em;
+    border: none;
+    transition: ease-in .25s all;
+}
+
+.menu-button button:hover {
+    color: whitesmoke;
+    background: #000000;
+    border: 0.3vw dashed rgb(90, 90, 93);
+    border-radius: 0.5em ; 
+}
+
+
+.menu-button button p {
+    font-size: 1.5vw;
+    font-weight: 600;
+    letter-spacing: .1vw;
+    font-style: normal;
+    padding: .1vw .1vw;
+}
+
+/* ######################################*/
+
+.menu-text-right {
+    display: flex;
+    align-items: center;   
+    padding: .1vw .9vw;
+}
+
+.menu-text-right img {
+    background-color: transparent;
+    max-width: 3.5vw;
+}
+
+.menu-text-right h6 {
+    color: #000;
+    font-size: 1.6vw;
+    font-weight: 900;
+    letter-spacing: .3vw;
+    font-style: italic;
+    padding: .1vw .9vw;
+}
+
+.menu-text-right a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5vw;
+    font-weight: 900;
+    letter-spacing: .3vw;
+    font-style: normal  ;
+    padding: .5vw .9vw;
+    border-radius: .5em;
+}
+
+.menu-text-right a:hover {
+    color: white;
+    background-color: #2c1045;
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+.global-1 {
+    background: url(image/landing-page/95.1.jpg) center center no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    height: 50vw;
+    width: 100vw;
+    border-radius: 1em;
+} 
+
+/* ######################################*/
+
+.name-1 h1 {
+    float: left;
+    display: inline-block;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    width: 2vw;
+    height: 35vw;
+    margin: 0vw .5vw; 
+    margin-top: 6vw;
+    font-size: 2.2vw;
+    font-weight: 600;
+    letter-spacing: .25vw;
+    padding: .5vw .1vw;
+}
+
+.name-1 h2 {
+    float: right;
+    display: inline-block;
+    writing-mode: vertical-rl;
+    margin: 0vw .5vw; 
+    margin-top: 6vw;
+    font-size: 2.2vw;
+    font-weight: 600;
+    letter-spacing: .8vw;
+    padding: 0.5vw .1vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.name-2 {   
+    float: left;
+    display: inline-block;
+    margin: 0.3vw 0.3vw;
+    margin-top: 3vw; 
+    padding: 0.3vw 0.3vw; 
+}
+
+/* ######################################*/
+
+.name-2-1 {
+    margin-top: 3.5vw;
+    margin-bottom: 7vw;  
+}
+
+.name-2-1 h5 {
+    opacity: 0.7;
+    padding-top: 0vw;
+    margin-left: 10vw;
+    margin-bottom: 3vw;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;  
+	font-size: 3.5vw;
+    font-weight: 600;
+    font-family: 'Niconne', cursive;   
+    color: #e0d6e9;
+    text-shadow: 2px 2px 0px  #957dad,
+                4px 4px 0px #ee4b2b,
+                6px 6px 0px #00c2cb,
+                8px 8px 0px #ff7f50,
+                10px 10px 0px #553c9a;
+}
+
+.name-2-1 h5:before {
+    opacity: 0.4;
+    content: "lovely";
+    position: absolute;
+    top: -1vw;
+    left: -100px;
+    font-size: 1.0em;
+    transform: rotate(-25deg);
+    font-family: 'Marck Script', cursive;
+    color: #2c1045;
+    text-shadow: 2px 2px 0px  #957dad,
+                4px 4px 0px #ee4b2b,
+                6px 6px 0px #00c2cb,
+                8px 8px 0px #ff7f50,
+                10px 10px 0px #553c9a;
+}
+
+.name-2-1 h6 {
+    opacity: 0.8;
+    margin-left: 4vw;
+    margin-top: -5.5vw;
+    position: relative;  
+	font-size: 3.5vw;
+    font-weight: 600;
+    font-family: 'Niconne', cursive;
+    color: #e0d6e9;
+    text-shadow: 2px 2px 0px  #957dad,
+                4px 4px 0px #ee4b2b,
+                6px 6px 0px #00c2cb,
+                8px 8px 0px #ff7f50,
+                10px 10px 0px #553c9a;
+}
+
+/* ######################################*/
+
+.name-2 .p1 {
+    font-size: 2.8vw;
+    font-weight: 600;
+    letter-spacing: .7vw; 
+}
+
+/* ######################################*/
+
+.name-2 .p2 {
+    font-size: 1.7vw;
+    font-weight: 700;
+    letter-spacing: .2vw;
+} 
+
+/* ######################################*/
+
+.name-2 .button button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: rgb(34, 36, 39);
+    transition: ease-in .5s all;
+}
+
+.name-2 .button button:hover {
+    background-color: black;
+    border-radius: 0.5em;
+    border: none;
+    color: wheat;
+}
+
+.name-2 .button button p {  
+    margin: .5vw 1vw; 
+    font-size: 2.2vw;
+    font-weight: 700;
+    letter-spacing: .3vw;
+    font-style: italic;
+    padding: .9vw 1.2vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.name-photo-general {
+    float: right;
+    margin: .5vw;
+    margin-top: 13vw;
+    border-radius: 5%;
+}
+
+/* ######################################*/
+
+.name-photo-general {
+    margin: .5vw;
+    margin-top: 2.5vw;
+    max-width: 35vw;
+    max-height: 40vw;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+}
+
+/* ######################################*/
+
+.name-photo-general img {
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+}
+
+.name-photo-general .name-photo-1 {
+    position: relative;
+    animation: scale 10s linear 5s infinite;
+    overflow: hidden;
+}
+
+.name-photo-general .name-photo-2 {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    animation: scale 10s linear infinite;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0);
+        border-radius: 50%;
+    }
+    10% {
+        transform: scale(1);
+        border-radius: 50%;
+    } 
+    15% {
+        border-radius: 0;
+    }    
+    49.99999% {
+        z-index: 1;
+    }   
+    50% {
+        z-index: -1;
+    }  
+    100% {
+        transform: scale(1);
+        z-index: -1;
+        border-radius: 0;
+    }  
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+.blok-0 {
+    max-width: 100vw;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #2d0c0c;
+    font-size: 6.0vw;
+    font-weight: 500;
+    letter-spacing: 0.8vw;
+    padding: 2vw;
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+.blok-1 {
+    max-width: 100vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+}
+
+/* ######################################*/
+
+.blok-1 .blok-1-photo img {
+    max-width: 45vw;
+    max-height: 25vw;
+    width: 100%;
+    height: auto;
+    margin: 2vw;
+    border-radius: 1em;
+    border: none;
+}
+
+/* ######################################*/
+
+.blok-1 {
+    max-width: 100vw;
+    width: 100%;
+}
+
+
+.blok-1 .blok-1-text {
+    width: 50vw;
+    height: 25vw;
+    margin: 2vw;
+}
+
+/* ######################################*/
+
+.blok-1 .blok-1-text h5 {
+    text-align: center;
+    color: #553c9a;
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0.2vw;
+    padding: 1vw;
+}
+
+/* ######################################*/
+
+.blok-1 .blok-1-text p {
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.1vw;
+    padding: 1vw;
+}
+
+/* ######################################*/
+
+.blok-1 .blok-1-text button {
+    cursor: pointer;
+    float: right;
+    align-items: end;
+    margin: 1vw;
+    padding: 1vw;
+    background: rgb(212, 128, 233);
+    color: #faf4f4;
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 600;
+    border-radius: 0.5em;
+    border: none;
+    transition: ease-in .15s all;
+}
+
+.blok-1 .blok-1-text button:hover {
+    background: rgb(232, 225, 148);
+    color: #2d0606;
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.blok-2 {
+    max-width: 100vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ######################################*/
+
+.blok-2 .blok-2-photo img {
+    width: 45vw;
+    height: 25vw;
+    margin: 2vw;
+    border-radius: 1em;
+    border: none;
+}
+
+/* ######################################*/
+
+.blok-2 .blok-2-text {
+    max-width: 50vw;
+    max-height: 25vw;
+    margin: 2vw;
+}
+
+/* ######################################*/
+
+.blok-2 .blok-2-text h5 {
+    text-align: center;
+    color: #553c9a;
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.2vw;
+    padding: 1vw;
+}
+
+/* ######################################*/
+
+.blok-2 .blok-2-text p {
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.1vw;
+    padding: 1vw;
+}
+
+/* ######################################*/
+
+.blok-2 .blok-2-text button {
+    cursor: pointer;
+    float: left;
+    align-items: end;
+    margin: 1vw;
+    padding: 1vw;
+    background: rgb(212, 128, 233);
+    color: #faf4f4;
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 600;
+    border-radius: 0.5em;
+    border: none;
+    transition: ease-in .15s all;
+}
+
+.blok-2 .blok-2-text button:hover {
+    background: rgb(232, 225, 148);
+    color: #2d0606;
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+.blok-3 {
+    max-width: 100vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ######################################*/
+
+.blok-3 .blok-3-photo img {
+    width: 45vw;
+    height: 25vw;   
+    margin: 2vw;
+    border-radius: 1em;
+    border: none;
+}
+
+/* ######################################*/
+
+.blok-3 .blok-3-text {
+    max-width: 50vw;
+    max-height: 25vw;
+    width: 100%;
+    height: auto;
+    margin: 2vw;
+}
+
+/* ######################################*/
+
+.blok-3 .blok-3-text h5 {
+    text-align: center;
+    color: #553c9a;
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.2vw;
+    padding: 1vw;
+}
+
+/* ######################################*/
+
+.blok-3 .blok-3-text p {
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.1vw;
+    padding: 1vw;
+}
+
+/* ######################################*/
+
+.blok-3 .blok-3-text button {
+    cursor: pointer;
+    float: right;
+    align-items: end;
+    margin: 1vw;
+    padding: 1vw;
+    background: rgb(212, 128, 233);
+    color: #faf4f4;
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 600;
+    border-radius: 0.5em;
+    border: none;
+    transition: ease-in .15s all;
+}
+
+.blok-3 .blok-3-text button:hover {
+    background: rgb(232, 225, 148);
+    color: #2d0606;
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+.blok-4 {
+    max-width: 100vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ######################################*/
+
+.blok-4 .blok-4-photo img {
+    width: 45vw;
+    height: 25vw;
+    margin: 2vw;
+    border-radius: 1em;
+    border: none;
+}
+
+/* ######################################*/
+
+.blok-4 .blok-4-text {
+    max-width: 50vw;
+    max-height: 25vw;
+    width: 100%;
+    height: auto;
+    margin: 2vw;
+}
+
+/* ######################################*/
+
+.blok-4 .blok-4-text h5 {
+    text-align: center;
+    color: #553c9a;
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.2vw;
+    padding: 1vw;
+}
+
+/* ######################################*/
+
+.blok-4 .blok-4-text p {
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.1vw;
+    padding: 1vw;
+}
+
+/* ######################################*/
+
+.blok-4 .blok-4-text button {
+    cursor: pointer;
+    float: left;
+    align-items: end;
+    margin: 1vw;
+    padding: 1vw;
+    background: rgb(212, 128, 233);
+    color: #faf4f4;
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 600;
+    border-radius: 0.5em;
+    border: none;
+    transition: ease-in .15s all;
+}
+
+.blok-4 .blok-4-text button:hover {
+    background: rgb(232, 225, 148);
+    color: #2d0606;
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.blok-photos {
+    max-width: 100vw;
+}
+
+
+.blok-photos-text h5 {
+    display: flex;
+    justify-content: center;
+    color: #330202;
+    font-size: 3.0vw;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 0.7vw;
+    padding: 0.5vw;
+    margin-top: 1vw;
+}
+
+/* ######################################*/
+
+.blok-photos-text h6 {
+    display: flex;
+    justify-content: center;
+    color: #330202;
+    font-size: 2.3vw;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 0.5vw;
+    padding: 0.5vw;
+}
+
+/* ######################################*/
+
+.blok-photos-photo-1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    width: 100%;
+    margin-bottom: 1vw;
+}
+
+.blok-photos-photo-1 img {
+    width: 20vw ;
+    border-radius: 0.5em;
+    margin: 0.5vw;
+    transition: 0.8s;
+}
+
+.blok-photos-photo-1 img:hover {
+    transform: scale(1.6); 
+}
+
+/* ######################################*/
+
+.blok-photos-photo-2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    width: 100%;
+}
+
+.blok-photos-photo-2 img {
+    width: 20vw;
+    border-radius: 0.5em;
+    margin: 0.5vw;
+    transition: 0.8s;
+}
+
+.blok-photos-photo-2 img:hover {
+    transform: scale(1.6); 
+}
+
+/* ######################################*/
+
+.blok-photos-button {
+    cursor: pointer;
+    text-align: center;
+}
+
+.blok-photos-button button {
+    margin: 1vw;
+    padding: 1vw;
+    background: rgb(212, 128, 233);
+    color: #faf4f4;
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 600;
+    border-radius: 0.5em;
+    border: none;
+    transition: ease-in .15s all;
+}
+
+.blok-photos-button button:hover {
+    background: rgb(232, 225, 148);
+    color: #2d0606;
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+.blok-name {
+    max-width: 100vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1em;
+}
+
+/* ######################################*/
+
+.blok-name .blok-name-photo img {
+    display: flex;
+    flex-direction: column;
+    max-width: 70vw;
+    max-height: 50vw;
+    margin: 2vw;
+    border-radius: 1em;
+    border: none;
+}
+
+/* ######################################*/
+
+.blok-name .blok-name-text {
+    z-index: 2;
+    flex-direction: column;
+    max-width: 50vw;
+    max-height: 35vw;
+    margin: 2vw;
+    border-radius: 1em;
+    background: rgba(235, 197, 150, 0.6);
+    margin-top: 12vw;
+    margin-right: -10vw;
+}
+
+/* ######################################*/
+
+.blok-name .blok-name-text h5 {
+    text-align: center;
+    color: #553c9a;
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.2vw;
+    padding: 2vw;
+}
+
+.blok-name .blok-name-text p {
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.1vw;
+    padding: 2vw;
+}
+
+/* ######################################*/
+
+.blok-name-button {
+    display: flex;
+    justify-content: center;
+}
+
+.blok-name-button button {
+    cursor: pointer;
+    margin: 0.1vw;
+    padding: 0.5vw;
+    background: rgb(212, 128, 233);
+    color: #faf4f4;
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 600;
+    border-radius: 0.5em;
+    border: none;
+    transition: ease-in .15s all;
+}
+
+.blok-name-button button:hover {
+    background: rgb(232, 225, 148);
+    color: #2d0606;
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+.blok-certificate {
+    max-width: 100vw;
+    max-height: 55vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+/* ######################################*/
+
+.blok-certificate .blok-certificate-name h5 {
+    display: flex;
+    justify-content: center;
+    color: #2c1045;
+    font-size: 3.2vw;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .6vw;
+    padding: 0.3vw;
+    margin-top: 2vw;
+}
+
+.blok-certificate .blok-certificate-name h6 {
+    display: flex;
+    justify-content: center;
+    color: #12061c;
+    font-size: 2.0vw;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .6vw;
+    padding: 0.2vw;
+    margin-bottom: 2vw;
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+.book-container {
+    position: relative;
+    overflow: hidden;
+    height: 60vw;
+    margin: -10vw auto 0 auto;  
+    margin-top: -25vw;
+    margin-bottom: 3vw;
+    --bg-image-1: url(image/landing-page/201.1.jpg);
+    --bg-image-2: url(image/landing-page/202.1.jpg);
+    --bg-image-3: url(image/landing-page/203.1.jpg);
+    --bg-image-4: url(image/landing-page/206.1.jpg);
+    --bg-image-5: url(image/landing-page/205.1.jpg);
+}
+.book-container * {
+    box-sizing: border-box;
+}
+.imgLoader {
+    overflow: hidden;
+    animation: preLoad 1s steps(1);
+    width: .1vw;
+    height: .1vw;
+}
+@keyframes preLoad {
+    0% {
+        background-image: var(--bg-image-1);
+    }
+    10% {
+        background-image: var(--bg-image-2);
+    }
+    20% {
+        background-image: var(--bg-image-3);
+    }
+    30% {
+        background-image: var(--bg-image-4);
+    }
+    40% {
+        background-image: var(--bg-image-5);
+    }
+    100% {
+        display: none;
+    }
+}
+.book {
+    position: relative;
+    perspective: 63vw;
+    perspective-origin: center 5vw;
+    transform: scale(2.0);
+    filter: drop-shadow(0 1vw .5vw rgba(0, 0, 0, 0.25));
+}
+.page {
+    width: 21vw;
+    height: 30vw;
+    max-width: 100%;
+    min-height: 100%;
+    background-color: #bbb;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform-origin: 100% 100%;
+    border: solid #555 .2vw;
+    background-size: 42vw 30vw;
+    background-position: center;
+}
+.page:nth-child(1) {
+    transform: rotateX(60deg) rotateY(3deg);
+}
+.page:nth-child(2) {
+    transform: rotateX(60deg) rotateY(4.5deg);
+}
+.page:nth-child(3) {
+    transform: rotateX(60deg) rotateY(6deg);
+    animation: nextPage 25s infinite -24s steps(1);
+    background-size: 42vw 30vw;
+    background-position: -.2vw -.2vw;
+}
+.page:nth-child(4) {
+    transform: rotateX(60deg) rotateY(177deg);
+}
+.page:nth-child(5) {
+    transform: rotateX(60deg) rotateY(175.5deg);
+}
+.page:nth-child(6) {
+    transform: rotateX(60deg) rotateY(174deg);
+    overflow: hidden;
+}
+.page:nth-child(6)::after {
+    content: "";
+    width: 21vw;
+    height: 30vw;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    transform-origin: center;
+    transform: rotateY(180deg);
+    animation: nextPage 25s -20s infinite steps(1);
+    background-size: 42vw 30vw;
+    background-position: 100% -.2vw;
+}
+@keyframes nextPage {
+    0% {
+        background-image: var(--bg-image-1);
+    }
+    20% {
+        background-image: var(--bg-image-2);
+    }
+    40% {
+        background-image: var(--bg-image-3);
+    }
+    60% {
+        background-image: var(--bg-image-4);
+    }
+    80% {
+        background-image: var(--bg-image-5);
+    }
+}
+.gap {
+    width: 1vw;
+    height: 30vw;
+    background: none;
+    transform: rotateX(60deg);
+    transform-origin: bottom;
+    position: absolute;
+    top: 0;
+    left: calc(50% - .5vw);
+}
+.gap::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: #555;
+    width: 1vw;
+    height: .5vw;
+    border-radius: 50%;
+}
+.flip {
+    width: 3.2vw;
+    height: 30vw;
+    position: absolute;
+    top: 0;
+    transform-origin: 100% 100%;
+    right: 100%;
+    border: solid #555;
+    border-width: .2vw 0;
+    perspective: 420vw;
+    perspective-origin: center;
+    transform-style: preserve-3d;
+    background-size: 42vw 30vw;
+}
+.flip::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    background-size: 42vw 30vw;
+}
+.flip.flip1 {
+    right: 50%;
+    animation: flip1 5s infinite ease-in-out;
+    border-width: .2vw .2vw .2vw 0;
+}
+.flip.flip1::after {
+    animation: nextFlip1 25s -20s infinite steps(1);
+}
+.flip:not(.flip1) {
+    right: calc(100% - .2vw);
+    top: -.2vw;
+    transform-origin: right;
+    animation: flip2 5s ease-in-out infinite;
+}
+.flip.flip2::after {
+    animation: nextFlip2 25s -20s infinite steps(1);
+}
+.flip.flip3::after {
+    animation: nextFlip3 25s -20s infinite steps(1);
+}
+.flip.flip4::after {
+    animation: nextFlip4 25s -20s infinite steps(1);
+}
+.flip.flip5::after {
+    animation: nextFlip5 25s -20s infinite steps(1);
+}
+.flip.flip6::after {
+    animation: nextFlip6 25s -20s infinite steps(1);
+}
+.flip.flip7::after {
+    animation: nextFlip7 25s -20s infinite steps(1);
+}
+.flip.flip7 {
+    width: 3vw;
+    border-width: .2vw 0 .2vw .2vw;
+}
+.flip.flip7::after {
+    animation: nextFlip7 25s -20s infinite steps(1);
+}
+@keyframes flip1 {
+    0%, 20% {
+        transform: rotateX(60deg) rotateY(6deg);
+    }
+    80%, 100% {
+        transform: rotateX(60deg) rotateY(174deg);
+    }
+}
+@keyframes flip2 {
+    0%, 20% {
+        transform: rotateY(0deg) translateY(0vw);
+    }
+    50% {
+        transform: rotateY(-15deg) translateY(0vw);
+    }
+}
+@keyframes nextFlip1 {
+    0% {
+        background-image: var(--bg-image-1);
+        background-position: -17.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    10% {
+        background-image: var(--bg-image-2);
+        background-position: -21vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    20% {
+        background-image: var(--bg-image-2);
+        background-position: -17.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    30% {
+        background-image: var(--bg-image-3);
+        background-position: -21vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    40% {
+        background-image: var(--bg-image-3);
+        background-position: -17.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    50% {
+        background-image: var(--bg-image-4);
+        background-position: -21vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    60% {
+        background-image: var(--bg-image-4);
+        background-position: -17.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    70% {
+        background-image: var(--bg-image-5);
+        background-position: -21vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    80% {
+        background-image: var(--bg-image-5);
+        background-position: -17.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    90% {
+        background-image: var(--bg-image-1);
+        background-position: -21vw -.2vw;
+        transform: rotateY(180deg);
+    }
+}
+@keyframes nextFlip2 {
+    0% {
+        background-image: var(--bg-image-1);
+        background-position: -14.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    10.5% {
+        background-image: var(--bg-image-2);
+        background-position: -23.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    20% {
+        background-image: var(--bg-image-2);
+        background-position: -14.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    30.5% {
+        background-image: var(--bg-image-3);
+        background-position: -23.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    40% {
+        background-image: var(--bg-image-3);
+        background-position: -14.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    50.5% {
+        background-image: var(--bg-image-4);
+        background-position: -23.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    60% {
+        background-image: var(--bg-image-4);
+        background-position: -14.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    70.5% {
+        background-image: var(--bg-image-5);
+        background-position: -23.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    80% {
+        background-image: var(--bg-image-5);
+        background-position: -14.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    90.5% {
+        background-image: var(--bg-image-1);
+        background-position: -23.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+}
+@keyframes nextFlip3 {
+    0% {
+        background-image: var(--bg-image-1);
+        background-position: -11.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    11% {
+        background-image: var(--bg-image-2);
+        background-position: -26.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    20% {
+        background-image: var(--bg-image-2);
+        background-position: -11.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    31% {
+        background-image: var(--bg-image-3);
+        background-position: -26.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    40% {
+        background-image: var(--bg-image-3);
+        background-position: -11.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    51% {
+        background-image: var(--bg-image-4);
+        background-position: -26.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    60% {
+        background-image: var(--bg-image-4);
+        background-position: -11.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    71% {
+        background-image: var(--bg-image-5);
+        background-position: -26.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    80% {
+        background-image: var(--bg-image-5);
+        background-position: -11.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    91% {
+        background-image: var(--bg-image-1);
+        background-position: -26.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+}
+@keyframes nextFlip4 {
+    0% {
+        background-image: var(--bg-image-1);
+        background-position: -8.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    11.5% {
+        background-image: var(--bg-image-2);
+        background-position: -29.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    20% {
+        background-image: var(--bg-image-2);
+        background-position: -8.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    31.5% {
+        background-image: var(--bg-image-3);
+        background-position: -29.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    40% {
+        background-image: var(--bg-image-3);
+        background-position: -8.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    51.5% {
+        background-image: var(--bg-image-4);
+        background-position: -29.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    60% {
+        background-image: var(--bg-image-4);
+        background-position: -8.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    71.5% {
+        background-image: var(--bg-image-5);
+        background-position: -29.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    80% {
+        background-image: var(--bg-image-5);
+        background-position: -8.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    91.5% {
+        background-image: var(--bg-image-1);
+        background-position: -29.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+}
+@keyframes nextFlip5 {
+    0% {
+        background-image: var(--bg-image-1);
+        background-position: -5.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    12% {
+        background-image: var(--bg-image-2);
+        background-position: -32.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    20% {
+        background-image: var(--bg-image-2);
+        background-position: -5.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    32% {
+        background-image: var(--bg-image-3);
+        background-position: -32.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    40% {
+        background-image: var(--bg-image-3);
+        background-position: -5.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    52% {
+        background-image: var(--bg-image-4);
+        background-position: -32.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    60% {
+        background-image: var(--bg-image-4);
+        background-position: -5.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    72% {
+        background-image: var(--bg-image-5);
+        background-position: -32.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    80% {
+        background-image: var(--bg-image-5);
+        background-position: -5.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    92% {
+        background-image: var(--bg-image-1);
+        background-position: -32.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+}
+@keyframes nextFlip6 {
+    0% {
+        background-image: var(--bg-image-1);
+        background-position: -2.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    12.5% {
+        background-image: var(--bg-image-2);
+        background-position: -35.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    20% {
+        background-image: var(--bg-image-2);
+        background-position: -2.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    32.5% {
+        background-image: var(--bg-image-3);
+        background-position: -35.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    40% {
+        background-image: var(--bg-image-3);
+        background-position: -2.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    52.5% {
+        background-image: var(--bg-image-4);
+        background-position: -35.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    60% {
+        background-image: var(--bg-image-4);
+        background-position: -2.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    72.5% {
+        background-image: var(--bg-image-5);
+        background-position: -35.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    80% {
+        background-image: var(--bg-image-5);
+        background-position: -2.8vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    92.5% {
+        background-image: var(--bg-image-1);
+        background-position: -35.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+}
+@keyframes nextFlip7 {
+    0% {
+        background-image: var(--bg-image-1);
+        background-position: -.2vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    13% {
+        background-image: var(--bg-image-2);
+        background-position: -38.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    20% {
+        background-image: var(--bg-image-2);
+        background-position: -.2vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    33% {
+        background-image: var(--bg-image-3);
+        background-position: -38.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    40% {
+        background-image: var(--bg-image-3);
+        background-position: -.2vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    53% {
+        background-image: var(--bg-image-4);
+        background-position: -38.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    60% {
+        background-image: var(--bg-image-4);
+        background-position: -.2vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    73% {
+        background-image: var(--bg-image-5);
+        background-position: -38.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+    80% {
+        background-image: var(--bg-image-5);
+        background-position: -.2vw -.2vw;
+        transform: rotateY(0deg);
+    }
+    93% {
+        background-image: var(--bg-image-1);
+        background-position: -38.8vw -.2vw;
+        transform: rotateY(180deg);
+    }
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+.blok-certificate-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vw;
+}
+
+.blok-certificate-button button {
+    margin: 1vw;
+    padding: 1vw;
+    background: rgb(212, 128, 233);
+    color: #faf4f4;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: .2vw;
+    border-radius: 0.5em;
+    border: none;
+    transition: ease-in .15s all;
+}
+
+.blok-certificate-button button:hover {
+    background: rgb(232, 225, 148);
+    color: #2d0606;
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.blok-working-moment {
+    max-width: 100vw;
+    max-height: 70vw;
+    width: 100%;
+}
+
+
+.blok-working-moment .blok-working-moment-name h5 {
+    display: flex;
+    justify-content: center;
+    color: #393838;
+    font-size: 5.5vw;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: .9vw;
+    padding: 0.4vw;
+    margin-top: 3vw;
+}
+
+/* ######################################*/
+
+.blok-working-moment-photo {
+    margin: 1vw 2vw;
+    height: 50vw;
+    display: grid;
+    place-content: center;
+    background: rgb(236, 224, 202);
+    overflow: hidden;
+}
+
+/* ######################################*/
+
+.blok-working-moment-photo .gallery {
+    --s: 70vw; /* the image size */
+    display: grid;
+    transform-style: preserve-3d;
+    animation: r 25s linear infinite;
+    position: relative;
+}
+@keyframes r {
+    0% {transform: perspective(60vw) rotateX(-100deg) rotate(0deg)}
+    to {transform: perspective(60vw) rotateX(-100deg) rotate(-360deg)}
+  }
+  .blok-working-moment-photo .gallery > img {
+    grid-area: 1/1;
+    width: var(--s);
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 1em;
+    transform: rotate(var(--_a)) translateY(90%) rotateX(90deg);
+}
+.blok-working-moment-photo .gallery > img:nth-child(1) {--_a: 0deg}
+.blok-working-moment-photo .gallery > img:nth-child(2) {--_a: 60deg}
+.blok-working-moment-photo .gallery > img:nth-child(3) {--_a: 120deg}
+.blok-working-moment-photo .gallery > img:nth-child(4) {--_a: 180deg}
+.blok-working-moment-photo .gallery > img:nth-child(5) {--_a: 240deg}
+.blok-working-moment-photo .gallery > img:nth-child(6) {--_a: 300deg}
+  
+.blok-working-moment-photo .gallery::before {
+    content: "";
+    position: absolute;
+    inset: -100%;
+    clip-path: polygon(50% 0,calc(50% + .866*50%) 25%,calc(50% + .866*50%) 75%,50% 100%,calc(50% - .866*50%) 75%,calc(50% - .866*50%) 25%);
+    background: url(image/landing-page/93.jpg);
+    transform: translateZ(calc(var(--s)/2)) rotate(90deg);
+}
+
+/* ######################################*/
+
+.blok-working-moment-button {
+    display: flex;
+    justify-content: center;
+}
+
+.blok-working-moment-button button {
+    cursor: pointer;
+    margin: 1vw;
+    padding: 1vw;
+    background: rgb(212, 128, 233);
+    color: #faf4f4;
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 600;
+    border-radius: 0.5em;
+    border: none;
+    transition: ease-in .15s all;
+}
+
+.blok-working-moment-button button:hover {
+    background: rgb(232, 225, 148);
+    color: #2d0606;
+}
+  
+  
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+.blok-price {
+    max-width: 95vw;
+
+    background: #e8d7b4;
+    padding: 1.5vw;
+    border-radius: 1em;
+}
+
+/* ######################################*/
+
+.blok-price-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+}
+
+/* ######################################*/
+
+.blok-price-name h5 {
+    color: #2b2b2b;
+    font-size: 3.5vw;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 1.2vw;
+}
+
+/* ######################################*/
+
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e8d7b4;
+    margin: 0.1vw;
+    padding: 1vw;
+    border-radius: 0.5em;
+    border: 0.2vw solid rgb(230, 184, 97);
+}
+
+/* ######################################*/
+
+.service h4 {
+    color: #2d0606;
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 0.3vw;
+}
+
+/* ######################################*/
+
+.service .blok {
+    text-align: center;   
+}
+
+.service h5 {
+    color: #2d0606;
+    font-size: 1.9vw;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.2vw;
+    padding: 0.1vw;   
+}
+
+.service h6 {
+    color: #54096b;
+    font-size: 2.3vw;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.2vw;
+    padding: 0.1vw;   
+}
+
+/* ######################################*/
+
+.blok-price-button {
+    display: flex;
+    justify-content: center;
+}
+
+.blok-price-button button {
+    cursor: pointer;
+    margin: 1vw;
+    padding: 1vw;
+    background: rgb(212, 128, 233);
+    color: #faf4f4;
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 600;
+    border-radius: 0.5em;
+    border: none;
+    transition: ease-in .15s all;
+}
+
+.blok-price-button button:hover {
+    background: rgb(232, 225, 148);
+    color: #2d0606;
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+.blok-master-input {
+    max-width: 95vw; 
+    display: flex;
+    justify-content: space-between;
+    background: #f9ecd2;
+    padding: 1.5vw 6vw;
+    border-radius: 1em;
+}
+
+/* ######################################*/
+
+.master-text {
+    max-width: 50vw;
+    max-height: 35vw;
+    padding: 1.5vw;
+    border-radius: 1em;
+}
+
+.master-text p {
+    color: black;
+    font-size: 2.3vw;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.2vw;
+    padding: 1vw 0.4vw;
+    padding-bottom: 3vw; 
+}
+
+/* ######################################*/
+
+.master-text .photo-text {
+    display: flex;
+}
+
+.master-text .photo-text img {
+    width: 15vw;
+    margin: 1vw 0vw;
+    margin-bottom: 7vw;
+    border-radius: 1em;
+}
+
+.master-text .photo-text h5 {
+    color: black;
+    font-size: 2.4vw;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.2vw;
+    padding: 0.4vw;
+    padding-top: 9vw; 
+}
+
+.master-text .photo-text h6 {
+    color: black;
+    font-size: 1.9vw;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.2vw;
+    padding: 0.3vw 0.4vw; 
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.master-input {
+    background: rgb(244, 226, 199);
+    width: 25vw;
+    height: 35vw;
+    padding: 1.5vw;
+    border-radius: 1em;
+}
+
+/* ######################################*/
+
+.master-input h5 {
+    text-align: center;
+    color: black;
+    font-size: 1.9vw;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.2vw;
+    padding: 0.3vw 1vw;
+    padding-bottom: 2vw;
+}
+
+/* ######################################*/
+
+.master-input h6 {
+    text-align: start;
+    color: black;
+    font-size: 1.6vw;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.2vw;
+    padding: 0.3vw 1vw;
+    padding-top: 1vw;
+}
+
+/* ######################################*/
+
+.master-input input {
+    text-align: start;
+    width: 20vw;
+    height: 0.3vw;
+    color: black;
+    font-size: 1.7vw;
+    font-weight: 500;
+    letter-spacing: 0.2vw;
+    padding: 1vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+
+.master-button-text {
+    display: flex;
+    justify-content: center;
+    margin: 2vw 0;  
+}
+
+.master-button-text button {
+    align-items: center;
+    width: 2.5vw;
+    height: 2.5vw;  
+}
+
+.master-button-text button h6 { 
+    cursor: pointer;
+    text-align: center;
+    color: transparent;
+    font-size: 2.0vw;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.master-button-text button h6:hover { 
+    text-align: center;
+    color: black;
+    font-size: 2.0vw;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+/* ######################################*/
+
+.master-button-text p {
+    text-align: start;
+    font-size: 1.2vw;   
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.master-input-button {
+    display: flex;
+    justify-content: center;
+}
+
+.master-input-button button {
+    cursor: pointer;
+    align-items: center;
+    margin: 1vw;
+    margin-top: 3vw;
+    background: rgb(212, 128, 233);
+    color: #faf4f4;
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 600;
+    border-radius: 0.5em;
+    border: none;
+    transition: ease-in .15s all;
+}
+
+.master-input-button button:hover {
+    background: rgb(232, 225, 148);
+    color: #2d0606;
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+.questions-name {
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+}
+/* ######################################*/
+
+.questions-name h6 {
+    color: rgb(62, 22, 60);
+    font-size: 3.5vw;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .5vw;   
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.questions-text-1 {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(231, 213, 183);
+    margin: 1.0vw;
+    height: 12vw;
+    font-size: 2.0vw;
+    border-radius: 1em;
+}
+
+/* ######################################*/
+
+.questions-text-1 .p-1 {
+    display: inline-block;
+    width: 60vw;
+    margin: 1vw;
+    padding: 2vw;
+    font-size: 2.2vw;
+}
+
+/* ######################################*/
+
+.questions-text-1 .p-2 {
+    display: inline-block;
+    width: 70vw;
+    margin: 1vw;
+    padding: 0vw;
+    font-size: 1.6vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.questions-text-2 {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(231, 213, 183);
+    margin: 1.0vw;
+    height: 12vw;
+    font-size: 2.0vw;
+    border-radius: 1em;
+}
+
+/* ######################################*/
+
+.questions-text-2 .p-1 {
+    display: inline-block;
+    width: 60vw;
+    margin: 1vw;
+    padding: 2vw;
+    font-size: 2.2vw;
+}
+
+/* ######################################*/
+
+.questions-text-2 .p-2 {
+    display: inline-block;
+    width: 70vw;
+    margin: 1vw;
+    padding: 0vw;
+    font-size: 1.6vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.questions-text-3 {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(231, 213, 183);
+    margin: 1.0vw;
+    height: 12vw;
+    font-size: 2.0vw;
+    border-radius: 1em;
+}
+
+/* ######################################*/
+
+.questions-text-3 .p-1 {
+    display: inline-block;
+    width: 60vw;
+    margin: 1vw;
+    padding: 2vw;
+    font-size: 2.2vw;
+}
+
+/* ######################################*/
+
+.questions-text-3 .p-2 {
+    display: inline-block;
+    width: 70vw;
+    margin: 1vw;
+    padding: 0vw;
+    font-size: 1.6vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.questions-text {
+    display: flex;
+    justify-content: center;
+    margin: 2vw;
+}
+
+/* ######################################*/
+
+.questions-text h5 {
+    color: rgb(62, 22, 60);
+    font-size: 2.8vw;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .5vw;   
+}
+
+/* ######################################*/
+
+.questions-button {
+    display: flex;
+    justify-content: center;
+}
+
+.questions-button button {
+    cursor: pointer;
+    align-items: center;
+    margin: 1vw;
+    padding: 1vw;
+    background: rgb(212, 128, 233);
+    color: #faf4f4;
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 600;
+    border-radius: 0.5em;
+    border: none;
+    transition: ease-in .15s all;
+}
+
+.questions-button button:hover {
+    background: rgb(232, 225, 148);
+    color: #2d0606;
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+.advantages {
+    max-width: 100vw;
+    margin: 1vw;
+    margin-top: 5vw;
+}
+
+/* ######################################*/
+
+.advantages-name {
+    display: flex;
+    justify-content: center;
+    color: #171717;
+    font-size: 5.0vw;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.9vw;
+    margin: 2vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.advantages-info {
+    display: flex;
+    justify-content: space-between;
+    background: #ccbb9f;
+    padding: 2vw;
+    border-radius: 1em;
+}
+
+/* ######################################*/
+/* ######################################*/
+
+.advantages-text-1 {
+    display: flex;
+    align-items: center;
+    margin: 4vw 0;
+    margin-right: 1vw;
+}
+
+.advantages-text-1 .a1 {
+    font-size: 5.0vw;
+    margin-right: 5vw;  
+}
+
+.advantages-text-1 .a2 h6 {
+    color: black;
+    font-size: 2.7vw;
+    font-style: normal;
+    font-weight: 550;
+    letter-spacing: 0.3vw;
+}
+
+.advantages-text-1 .a2 p {
+    color: #171717;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.15vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+
+.advantages-text-2{
+    display: flex;
+    align-items: center;
+    margin: 3vw 0;
+    margin-right: 1vw;
+}
+
+.advantages-text-2 .a1 {
+    font-size: 5.0vw;
+    margin-left: 0.8vw;
+    margin-right: 6.5vw;
+}
+
+.advantages-text-2 .a2 h6 {
+    color: black;
+    font-size: 2.7vw;
+    font-style: normal;
+    font-weight: 550;
+    letter-spacing: 0.3vw;
+}
+
+.advantages-text-2 .a2 p {
+    color: #171717;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.15vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+
+.advantages-text-3 {
+    display: flex;
+    align-items: center;
+    margin: 3vw 0;
+    margin-right: 1vw;
+}
+
+.advantages-text-3 .a1 {
+    font-size: 5.0vw;
+    margin-right: 5vw;
+}
+
+.advantages-text-3 .a2 h6 {
+    color: black;
+    font-size: 2.7vw;
+    font-style: normal;
+    font-weight: 550;
+    letter-spacing: 0.3vw;
+}
+
+.advantages-text-3 .a2 p {
+    color: #171717;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.15vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+
+.advantages-text-4 {
+    display: flex;
+    align-items: center;
+    margin: 3vw 0;
+    margin-right: 1vw;
+}
+
+.advantages-text-4 .a1 {
+    font-size: 5.0vw;
+    margin-right: 2.5vw;
+}
+
+.advantages-text-4 .a2 h6 {
+    color: black;
+    font-size: 2.7vw;
+    font-style: normal;
+    font-weight: 550;
+    letter-spacing: 0.3vw;
+}
+
+.advantages-text-4 .a2 p {
+    color: #171717;
+    font-size: 1.7vw;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.15vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+
+.advantages-button {
+    display: flex;
+    justify-content: center;
+}
+
+.advantages-button button {
+    cursor: pointer;
+    margin: 1vw;
+    padding: 1vw;
+    background: rgb(212, 128, 233);
+    color: #faf4f4;
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 600;
+    border-radius: 0.5em;
+    border: none;
+    transition: ease-in .15s all;
+}
+
+.advantages-button button:hover {
+    background: rgb(232, 225, 148);
+    color: #2d0606;
+}
+
+/* ######################################*/
+/* ######################################*/
+
+
+.advantages-photo img {
+    width: 35vw;
+    margin: 1vw 0vw;
+    margin-bottom: 7vw;
+    border-radius: 1em;
+}
+
+
+
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.blok-contacts {
+    max-width: 97vw;
+    max-height: 50vw;
+    width: 100%;
+    height: 50vw;
+}
+
+
+.blok-contacts {
+    display: flex;
+    justify-content: space-between;
+    background: #f9ecd2;
+    margin: 1vw;
+    padding: 1.5vw 0;
+    border-radius: 1em;
+}
+
+/* ######################################*/
+
+.contacts-text {
+    max-width: 50vw;
+    max-height: 35vw;
+    padding: 1.5vw;
+    border-radius: 1em;
+}
+
+/* ######################################*/
+
+.contacts-text h4 {
+    color: black;
+    font-size: 3.2vw;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.6vw;
+    padding: 0.2vw 0.4vw;
+    padding-bottom: 2vw; 
+}
+
+/* ######################################*/
+
+.contacts-text p {
+    color: black;
+    font-size: 1.8vw;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.2vw;
+    padding: 0.5vw 0.4vw;
+    padding-bottom: 2vw; 
+}
+
+/* ######################################*/
+
+.contacts-text h5 {
+    margin: 1vw 0;
+}
+
+
+.contacts-text a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.0vw;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.4vw;
+    padding: 0.5vw 0.4vw;
+    border-radius: 0.5vw; 
+}
+
+.contacts-text a:hover {
+    color: white;
+    background: #2c1045;
+}
+
+
+/* ######################################*/
+
+.contacts-text h6 {
+    color: black;
+    font-size: 1.8vw;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.1vw;
+    padding: 0.5vw 0.4vw;
+    padding-top: 1.5vw;
+    padding-bottom: 0.5vw; 
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.contacts-text .photo-text {
+    display: flex;
+}
+
+.contacts-text img {
+    width: 8vw;
+    font-size: 1vw;
+    margin: 1vw 0vw;
+    margin-bottom: 7vw;
+    border-radius: 1em;
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.contacts-input {
+    background: rgb(214, 200, 180);
+    width: 30vw;
+    height: 35vw;
+    padding: 1.5vw;
+    border-radius: 1em;
+}
+
+/* ######################################*/
+
+.contacts-input h4 {
+    text-align: center;
+    color: black;
+    font-size: 2.8vw;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 0.2vw;
+    padding: 0.3vw 1vw;
+    padding-bottom: 2vw;
+}
+
+/* ######################################*/
+
+.contacts-input h6 {
+    text-align: center;
+    color: black;
+    font-size: 1.6vw;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.2vw;
+    padding: 0.3vw 1vw;
+    padding-bottom: 2vw;
+}
+
+/* ######################################*/
+
+.contacts-input h5 {
+    text-align: start;
+    color: black;
+    font-size: 1.6vw;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.2vw;
+    padding: 0.3vw 1vw;
+    padding-top: 1vw;
+}
+
+/* ######################################*/
+
+.contacts-input input {
+    text-align: start;
+    width: 25vw;
+    height: 0.3vw;
+    color: black;
+    font-size: 1.7vw;
+    font-weight: 500;
+    letter-spacing: 0.2vw;
+    padding: 1vw;
+}
+
+/* ######################################*/
+/* ######################################*/
+
+.contacts-button-text {
+    display: flex;
+    justify-content: center;
+    margin: 2vw 0;  
+}
+
+.contacts-button-text button {
+    align-items: center;
+    width: 2.5vw;
+    height: 2.5vw;  
+}
+
+.contacts-button-text button h6 { 
+    cursor: pointer;
+    text-align: center;
+    color: transparent;
+    font-size: 2.0vw;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.contacts-button-text button h6:hover { 
+    text-align: center;
+    color: black;
+    font-size: 2.0vw;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+/* ######################################*/
+
+.contacts-button-text p {
+    text-align: start;
+    font-size: 1.2vw;   
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.contacts-input-button {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-input-button button {
+    cursor: pointer;
+    margin: 1vw;
+    padding: 0.5vw 1vw;
+    background: rgb(212, 128, 233);
+    color: #faf4f4;
+    font-size: 2.0vw;
+    font-style: italic;
+    font-weight: 600;
+    border-radius: 0.5em;
+    border: none;
+    transition: ease-in .15s all;
+}
+
+.contacts-input-button button:hover {
+    background: rgb(232, 225, 148);
+    color: #2d0606;
+}
+
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+.my-contact {
+    max-width: 98vw; 
+    max-height: 60vw;     
+    background: rgba(109, 115, 112, 0.5) center center no-repeat;
+    background-size: cover;
+    padding: 0.3vw 0;  
+    border-radius: 0.5em; 
+}
+
+/* ######################################*/
+
+.my-contact .contact-name h6 {
+    text-align: center;
+    color: #000000;
+    font-size: 4.8vw;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 0.5vw;
+}
+
+/* ######################################*/
+
+.my-contact .contact-text {
+    width: 94vw;
+    height: 47vw;
+    padding: 3vw    ;
+}
+/* ######################################*/
+
+.my-contact .contact-text a {
+    text-decoration: none;
+    color: #0707ab;
+}
+
+.my-contact .contact-text h6 {
+    height: 6vw;
+    cursor: pointer;
+    text-align: center; 
+    align-items: center; 
+    color: #000000;
+    font-size: 4.0vw;
+    font-weight: 900;
+    margin: 2.5vw 0;
+    padding: 0.5vw;
+    border-radius: 0.25em;
+    border: 0.3vw dashed rgb(1, 178, 40);
+    transition: ease-in .25s all;
+}
+
+.my-contact .contact-text h6:hover {
+    background-color: #565256;
+    color: wheat;
+}
+
+/* ######################################*/
+/* ######################################*/
+
+.my-contact .contact-text .Contact-my {
+    width: 92vw;
+    height: 6vw;
+    margin: 3vw 0;
+}
+
+.messages-my {
+    display: flex;
+    justify-content: space-evenly;
+    width: 92vw;
+    height: 6vw;
+    margin: 3vw 0;
+}
+
+.my-contact .contact-text .WhatsApp-my {
+    width: 40vw;
+}
+
+.my-contact .contact-text .Telegram-my {
+    width: 40vw;
+}
+
+.post-my {
+    width: 92vw;
+    height: 6vw;
+    margin: 3vw 0;
+    margin-top: 6vw;
+}
+
+.my-contact .contact-text .House-my {
+    width: 92vw;
+    height: 6vw;
+    margin: 3vw 0;
+}
+
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+/* ######################################*/
+
+
+
+
+
+
